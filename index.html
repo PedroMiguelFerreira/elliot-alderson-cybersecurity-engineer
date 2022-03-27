@@ -247,6 +247,95 @@
                         </tbody>
                     </table>
                 </div>
+            </section>
+            <!-- Contact -->
+            <section>
+                <div>
+                    <table>
+                        <thead>
+                            <caption>
+                                <div>
+                                    <h2 id="contact-heading">Contact</h2>
+                                </div>
+                            </caption>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Name: </td>
+                                <td>Elliot Alderson</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Date of Birth: </td>
+                                <td>17/09/1986</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Address: </td>
+                                <td>217 East Broadway, New York, NY 10002, USA</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Cell Phone: </td>
+                                <td>(212) 555-0179</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Email: </td>
+                                <td>elliotalderson@protonmail.ch / elliot.alderson@e-cor-usa.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <!-- Contact form -->
+            <section>
+                <div>
+                    <h2>Tell me about your project!</h2>
+                </div>
+                <form action="https://formdump.codeinstitute.net/" method="POST">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                    <br><br>
+                    <label for="services">Which services do you need?</label>
+                    <br>
+                    <select id="services" name="services">
+                        <option value="design-implementation" selected>System & Network Design & Implementation</option>
+                        <option value="pen-testing">Penetration Testing</option>
+                        <option value="upgrade">Security Upgrade</option>
+                        <option value="response-investigation">Security Incident & Breach Response & Investigation</option>
+                        <option value="troubleshooting">Troubleshooting</option>
+                        <option value="training">Training</option>
+                    </select>
+                    <br><br>
+                    <label for="budget">What are your budget expectations for this project?</label>
+                    <br>
+                    <select id="budget" name="budget">
+                        <option value="5-10" selected>$5,000 – $10,000</option>
+                        <option value="10-15">$10,000 – $15,000</option>
+                        <option value="15-20">$15,000 – $20,000</option>
+                        <option value="20-25">$20,000 – $25,000</option>
+                        <option value="25-up">Higher than $25,000</option>
+                    </select>
+                    <br><br>
+                    <label for="time-frame">When do you need this project completed?</label>
+                    <br>
+                    <select id="time-frame" name="time-frame">
+                        <option value="day" selected>Within a day</option>
+                        <option value="week">Within a week</option>
+                        <option value="month">Within a month</option>
+                        <option value="3-months">Within three months</option>
+                        <option value="6-months">Within six months</option>
+                        <option value="year">Within a year</option>
+                    </select>
+                    <br><br>
+                    <label for="additional-information">Additional Information</label>
+                    <br>
+                    <textarea id="additional-information" name="additional-information" rows="10" cols="30"></textarea>
+                    <br><br>
+                    <button type="submit">Submit Project Details</button>
+                </form>
             </section>      
         </main>
         <!-- Link to the JavaScript file -->
