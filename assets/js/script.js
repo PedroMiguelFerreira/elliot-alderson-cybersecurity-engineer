@@ -9,6 +9,7 @@ elliotImage.addEventListener("mouseout", function(){
     this.src="assets/images/elliot-alderson-home-light-mode-image.PNG";
 });
 
+// Alert method for Final Test sub-section
 function isValid() {
     let password = document.getElementById("password").value;
     if (password == "whiterose") {
