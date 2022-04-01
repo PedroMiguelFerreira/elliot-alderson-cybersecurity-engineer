@@ -1,22 +1,27 @@
+// Variables for mouseover/mouseout and dark mode toggle switch
+let isDark = false;
+let checkbox = document.getElementById("checkbox");
+let elliotImage = document.getElementById("elliot-image");
+
 // Mouseover event for Home image
-var elliotImage = document.getElementById("elliot-image");
 elliotImage.addEventListener("mouseover", function(){
-    this.src="assets/images/mr-robot-home-light-mode-image.jpg";
+    if (isDark == false) {
+        this.src="assets/images/mr-robot-home-light-mode-image.jpg";
+    }
 });
 
 // Mouseout event for Home image
 elliotImage.addEventListener("mouseout", function(){
-    this.src="assets/images/elliot-alderson-home-light-mode-image.jpg";
+    if (isDark == false) {
+        this.src="assets/images/elliot-alderson-home-light-mode-image.jpg";
+    }
 });
 
 // Dark mode toggle switch
-let checkbox = document.getElementById("checkbox");
-var elliotImage = document.getElementById("elliot-image");
 checkbox.addEventListener("change", function(){
-    if (document.body.classList.toggle("dark-mode")) {
+    isDark = !isDark
+    document.body.classList.toggle("dark-mode"); {
         elliotImage.src="assets/images/elliot-alderson-home-dark-mode-image.PNG";
-    } else {
-        elliotImage.src="assets/images/mr-robot-home-light-mode-image.jpg";
     }
 });
 
