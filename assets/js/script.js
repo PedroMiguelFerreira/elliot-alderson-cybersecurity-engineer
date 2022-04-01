@@ -1,5 +1,5 @@
 // Mouseover event for Home image
-let elliotImage = document.getElementById("elliot-image");
+var elliotImage = document.getElementById("elliot-image");
 elliotImage.addEventListener("mouseover", function(){
     this.src="assets/images/mr-robot-home-light-mode-image.jpg";
 });
@@ -11,8 +11,13 @@ elliotImage.addEventListener("mouseout", function(){
 
 // Dark mode toggle switch
 let checkbox = document.getElementById("checkbox");
+var elliotImage = document.getElementById("elliot-image");
 checkbox.addEventListener("change", function(){
-    document.body.classList.toggle("dark-mode");
+    if (document.body.classList.toggle("dark-mode")) {
+        elliotImage.src="assets/images/elliot-alderson-home-dark-mode-image.PNG";
+    } else {
+        elliotImage.src="assets/images/mr-robot-home-light-mode-image.jpg";
+    }
 });
 
 // Alert method for Final Test sub-section
