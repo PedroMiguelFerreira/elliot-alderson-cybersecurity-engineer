@@ -1,7 +1,7 @@
 // Variables for mouseover/mouseout and dark mode toggle switch
 let isDark = false;
-let checkbox = document.getElementById("checkbox");
 let elliotImage = document.getElementById("elliot-image");
+let checkbox = document.getElementById("checkbox");
 
 // Mouseover event for Home image
 elliotImage.addEventListener("mouseover", function(){
