@@ -13,10 +13,70 @@ body {
     color: #000000;
 }
 
+/* Navigation */
+
+a {
+  color: #b70007;
+  text-decoration: none;
+}
+
+#menu a:hover {
+  border-bottom: 2px solid #b70007;
+}
+
+.navbar-container {
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  position: fixed;
+}
+
+.navbar {
+  background-color: #000000;
+  padding-right: 10px;
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  background-color: #000000;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.menu li {
+  color: #b70007;
+  background-color: #000000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+/* Dark mode */
+
 body.dark-mode {
     background-color: #000000;
     color: #FFFFFF; opacity: 0.87;
   }
+
+/* Dark mode toggle switch */
 
 .checkbox {
     position: absolute;
