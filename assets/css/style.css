@@ -10,4 +10,39 @@ body {
     background-color: #EBEBEB;
     font-family: "Fira Code", sans-serif;
     font-weight: 500;
+    color: #000000;
 }
+
+body.dark-mode {
+    background-color: #121212;
+    color: #FFFFFF; opacity: 0.87;
+  }
+
+.checkbox {
+    position: absolute;
+    opacity: 0;
+  }
+
+.slider-container {
+    height: 17px;
+    width: 30px;
+    border-radius: 50px;
+    background-color: #b70007;
+    display: flex;
+    transform: scale(1.5);
+  }
+
+.slider {
+    width: 12px;
+    height: 12px;
+    background-color: #121212;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+
+.checkbox:checked + .slider-container .slider {
+    transform: translateX(14px);
+  }
