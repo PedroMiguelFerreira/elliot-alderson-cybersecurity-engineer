@@ -19,7 +19,7 @@ elliotImage.addEventListener("mouseout", function(){
 
 // Dark mode toggle switch
 checkbox.addEventListener("change", function(){
-    isDark = !isDark
+    isDark = !isDark;
     document.body.classList.toggle("dark-mode"); {
         elliotImage.src="assets/images/elliot-alderson-home-dark-mode-image.PNG";
     }
