@@ -13,6 +13,15 @@ body {
     color: #000000;
 }
 
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 175%;
+  justify-content: center;
+  display: flex;
+  padding-top: 55px;
+}
+
 /* Navigation */
 
 a {
