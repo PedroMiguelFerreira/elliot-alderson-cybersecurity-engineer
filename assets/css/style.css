@@ -175,6 +175,7 @@ body.dark-mode {
 /* Education */
 
 .table {
+  font-size: 125%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -182,11 +183,20 @@ body.dark-mode {
 /* Skills */
 
 #skills-list {
+  font-size: 125%;
+  line-height: 2em;
   display: flex;
   justify-content: center;
   margin-right: 175px;
   margin-left: 175px;
-  line-height: 2em;;
+}
+
+/* Projects */
+
+#projects-table {
+  font-size: 125%;
+  margin-right: 175px;
+  margin-left: 175px;
 }
 
 /* Footer */
