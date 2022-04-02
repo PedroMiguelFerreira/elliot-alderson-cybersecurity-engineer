@@ -172,6 +172,13 @@ body.dark-mode {
   margin-bottom: 75px;
 }
 
+/* Education */
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Footer */
 
 .footer-container {
