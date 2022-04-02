@@ -21,7 +21,11 @@ elliotImage.addEventListener("mouseout", function(){
 checkbox.addEventListener("change", function(){
     isDark = !isDark;
     document.body.classList.toggle("dark-mode"); {
-        elliotImage.src="assets/images/elliot-alderson-home-dark-mode-image.PNG";
+        if (isDark == true) {
+            elliotImage.src="assets/images/elliot-alderson-home-dark-mode-image.PNG";
+        } else {
+            elliotImage.src="assets/images/elliot-alderson-home-light-mode-image.jpg";
+        }
     }
 });
 
