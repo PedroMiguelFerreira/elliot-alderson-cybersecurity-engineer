@@ -13,6 +13,16 @@ body {
     color: #000000;
 }
 
+a {
+  font-weight: bold;
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 2px solid red;
+}
+
 h2 {
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -27,11 +37,6 @@ h2 {
 .logo {
   padding-top: 3px;
   padding-left: 10px;
-}
-
-a {
-  color: red;
-  text-decoration: none;
 }
 
 .navbar-container {
@@ -53,10 +58,6 @@ a {
 .menu {
   display: flex;
   align-items: center;
-}
-
-#menu a:hover {
-  border-bottom: 2px solid red;
 }
 
 .menu ul {
