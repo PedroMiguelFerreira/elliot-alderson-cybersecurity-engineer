@@ -24,13 +24,14 @@ h2 {
 
 /* Navigation */
 
+.logo {
+  padding-top: 3px;
+  padding-left: 10px;
+}
+
 a {
   color: #b70007;
   text-decoration: none;
-}
-
-#menu a:hover {
-  border-bottom: 2px solid #b70007;
 }
 
 .navbar-container {
@@ -49,14 +50,13 @@ a {
   justify-content: space-between;
 }
 
-.logo {
-  padding-top: 3px;
-  padding-left: 10px;
-}
-
 .menu {
   display: flex;
   align-items: center;
+}
+
+#menu a:hover {
+  border-bottom: 2px solid #b70007;
 }
 
 .menu ul {
@@ -83,6 +83,37 @@ a {
 #elliot-image {
   padding-top: 53px;
   height: 580px;
+}
+
+/* Footer */
+
+.footer-container {
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer {
+  background-color: #000000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.social-media-icons ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.social-media-icons li {
+  font-size: 20px;
+  margin-left: 160px;
+}
+
+.copyright-notice {
+  font-weight: bold;
+  color: #b70007;
+  margin-right: 7px;
+  padding: 2px;
 }
 
 /* Dark mode */
