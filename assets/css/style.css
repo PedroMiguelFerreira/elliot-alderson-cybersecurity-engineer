@@ -80,9 +80,52 @@ a {
 
 /* Home */
 
+h1 {
+  font-size: 185%;
+  text-align: center;
+  margin-top: 45px;
+  margin-left: 15px;
+}
+
+#home-image-and-text {
+  display: flex;
+}
+
 #elliot-image {
-  padding-top: 53px;
   height: 642px;
+  width: 601px;
+  padding-top: 53px;
+}
+
+#home-text {
+  padding-top: 53px;
+}
+
+#home-main-text-1 {
+  font-size: 350%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 85px;
+}
+
+#home-main-text-2 {
+  font-style: italic;
+  letter-spacing: 4px;
+  margin-top: 0;
+}
+
+#home-paragraph-text {
+  font-size: 140%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#dark-mode-toggle-switch {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 16px;
+  margin-left: 16px;
 }
 
 /* Dark mode toggle switch */
@@ -121,6 +164,11 @@ a {
 body.dark-mode {
   background-color: #000000;
   color: #FFFFFF; opacity: 0.87;
+}
+
+#final-test {
+  margin-top: 40px;
+  margin-bottom: 75px;
 }
 
 /* Footer */
