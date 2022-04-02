@@ -199,6 +199,36 @@ body.dark-mode {
   margin-left: 175px;
 }
 
+/* Contact form */
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 175%;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form {
+  font-size: 125%;
+  display: flex;
+  justify-content: center;
+}
+
+#contact-form-submit-button {
+  background-color: white;
+  font-family: "Fira Code", sans-serif;
+  font-size: 75%;
+  font-weight: bold;
+  border-style: solid;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+button:hover {
+  transform: scale(1.01);
+}
+
 /* Footer */
 
 .footer-container {
