@@ -78,6 +78,13 @@ a {
   padding: 10px;
 }
 
+/* Home */
+
+#elliot-image {
+  padding-top: 53px;
+  height: 580px;
+}
+
 /* Dark mode */
 
 body.dark-mode {
