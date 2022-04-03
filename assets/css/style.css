@@ -85,7 +85,6 @@ h1 {
   font-size: 185%;
   text-align: center;
   margin-top: 45px;
-  margin-left: 15px;
 }
 
 #home-image-and-text {
@@ -293,3 +292,38 @@ input:hover {
   margin-right: 7px;
   padding: 2px;
 }
+
+/* MEDIA QUERIES */
+
+/* Media queries for extra large screens and TVs */
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  #elliot-image {
+    height: 555px;
+    width: 523px;
+  }
+  
+  #home-main-text-1 {
+    font-size: 250%;
+    margin-top: 50px;
+    margin-right: 25px;
+  }
+
+  #home-main-text-2 {
+    margin-right: 25px;
+  }
+  
+  #home-paragraph-text {
+    margin-right: 10px;
+  }
+
+  h1 {
+    font-size: 140%;
+    margin-right: 25px;
+  }
+
+  #final-test {
+    margin-left: 515px;
+  }
+}
+
