@@ -32,6 +32,12 @@ h2 {
   padding-top: 55px;
 }
 
+.table-education-experience-contact {
+  font-size: 125%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Navigation */
 
 .logo {
@@ -169,14 +175,6 @@ body.dark-mode {
 #final-test {
   margin-top: 40px;
   margin-bottom: 75px;
-}
-
-/* Education */
-
-.table {
-  font-size: 125%;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 /* Skills */
@@ -327,3 +325,59 @@ input:hover {
   }
 }
 
+/* Media queries for desktops and large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .menu li {
+    margin-right: 0;
+    margin-left: 0;  
+  }
+
+  #elliot-image {
+    height: 555px;
+    width: 507px;
+  }
+
+  #home-main-text-1 {
+    font-size: 200%;
+    margin-top: 65px;
+    margin-right: 25px;
+  }
+
+  #home-main-text-2 {
+    font-size: 150%;
+    margin-right: 35px;
+  }
+
+  h1 {
+    font-size: 140%;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .table-education-experience-contact {
+    font-size: 100%;
+  }
+
+  #skills-list {
+    font-size: 100%;
+  }
+
+  #projects-table {
+    font-size: 100%;
+    margin-right: 217px;
+    margin-left: 217px;
+  }
+
+  .about-text {
+    font-size: 100%;
+  }
+
+  #final-test {
+    margin-left: 400px;
+  }
+
+  .social-media-icons li {
+    margin-left: 100px;
+  }
+}
