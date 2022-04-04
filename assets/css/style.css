@@ -224,10 +224,14 @@ h3 {
   justify-content: center;
 }
 
+.contact-form-font {
+  font-size: 125%;
+}
+
 .submit-buttons {
   background-color: white;
   font-family: "Fira Code", sans-serif;
-  font-size: 75%;
+  font-size: 100%;
   font-weight: bold;
   letter-spacing: 1px;
   border-style: solid;
@@ -253,7 +257,11 @@ button:hover {
 /* Final test */
 
 #final-test {
-  margin-left: 640px;
+  margin-left: 590px;
+}
+
+.final-test-font {
+  font-size: 125%;
 }
 
 input:hover {
@@ -321,7 +329,7 @@ input:hover {
   }
 
   #final-test {
-    margin-left: 515px;
+    margin-left: 425px;
   }
 }
 
@@ -374,7 +382,7 @@ input:hover {
   }
 
   #final-test {
-    margin-left: 400px;
+    margin-left: 335px;
   }
 
   .social-media-icons li {
@@ -463,6 +471,29 @@ input:hover {
   h3 {
     font-size: 150%;
   }
+
+  #contact-form {
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 2em;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-form-font {
+    font-size: 125%;
+  }
+  
+  .submit-buttons {
+    background-color: white;
+    font-family: "Fira Code", sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 5px;
+  }
   
   .submit-buttons {
     font-size: 100%;
@@ -475,7 +506,7 @@ input:hover {
   }
 
   #final-test {
-    margin-left: 260px;
+    margin-left: 205px;
   }
 
   .social-media-icons li {
