@@ -528,4 +528,14 @@ input:hover {
     padding-bottom: 7px;
     padding-right: 0; 
   }
+
+  .social-media-icons li {
+    margin-left: 25px;
+  }
+
+  .copyright-notice {
+    font-size: 13px;
+
+    padding: 5px;
+  }
 }
