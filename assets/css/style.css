@@ -461,7 +461,11 @@ input:hover {
   }
 
   h3 {
-    font-size: 125%;
+    font-size: 150%;
+  }
+  
+  .submit-buttons {
+    font-size: 100%;
   }
 
   .about-text {
@@ -471,7 +475,7 @@ input:hover {
   }
 
   #final-test {
-    margin-left: 265px;
+    margin-left: 260px;
   }
 
   .social-media-icons li {
