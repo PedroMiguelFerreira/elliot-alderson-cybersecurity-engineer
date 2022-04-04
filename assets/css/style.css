@@ -535,7 +535,44 @@ input:hover {
 
   .copyright-notice {
     font-size: 13px;
-
     padding: 5px;
+  }
+
+  #home-image-and-text {
+    display: inline-block;
+    text-align: center;
+    padding-top: 0;
+    position: relative;
+  }
+
+  #elliot-image {
+    height: 275px;
+    width: 250px;
+    padding-top: 77px;
+  }
+
+  #home-main-text-1 {
+    font-size: 175%;
+    margin-top: 0;
+    margin-right: 15px;
+  }
+
+  #home-main-text-2 {
+    font-size: 125%;
+    margin-right: 15px;
+  }
+
+  h1 {
+    font-size: 125%;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  #home-paragraph-text {
+    font-size: 90%;
+    margin-top: 35px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 }
