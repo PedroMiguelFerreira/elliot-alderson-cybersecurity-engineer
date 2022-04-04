@@ -364,21 +364,23 @@ input:hover {
   }
 
   .table-education-experience-contact {
-    font-size: 100%;
+    font-size: 125%;
+    margin-right: 75px;
+    margin-left: 95px;
   }
 
   #skills-list {
-    font-size: 100%;
+    font-size: 125%;
   }
 
   #projects-table {
-    font-size: 100%;
-    margin-right: 217px;
-    margin-left: 217px;
+    font-size: 125%;
+    margin-right: 175px;
+    margin-left: 175px;
   }
 
   .about-text {
-    font-size: 100%;
+    font-size: 125%;
   }
 
   #final-test {
