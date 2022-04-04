@@ -435,12 +435,14 @@ input:hover {
 
   h1 {
     font-size: 125%;
+    margin-top: 35px;
     margin-right: 10px;
     margin-left: 10px;
   }
 
   #home-paragraph-text {
-    font-size: 105%;
+    font-size: 100%;
+    margin-top: 35px;
     margin-right: 10px;
     margin-left: 10px;
   }
