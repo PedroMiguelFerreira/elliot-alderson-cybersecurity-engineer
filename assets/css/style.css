@@ -392,7 +392,7 @@ input:hover {
   }
 }
 
-/* Media queries for tablets and iPads */
+/* Media queries for laptops and small screens */
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .navbar {
@@ -500,5 +500,32 @@ input:hover {
 
   .social-media-icons li {
     margin-left: 70px;
+  }
+}
+
+/* Media queries for tablets and iPads */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;  
+  }
+
+  .menu {
+    justify-content: center;
+  }
+
+  .menu li {
+    font-size: 13px;
+    margin-right: 0px;
+    margin-left: 0;
+    padding-top: 0;
+    padding-bottom: 7px;
+    padding-right: 0; 
   }
 }
