@@ -51,6 +51,7 @@ h2 {
   margin: auto;
   width: 100%;
   position: fixed;
+  z-index: 99;
 }
 
 .navbar {
@@ -172,11 +173,6 @@ body.dark-mode {
   color: #FFFFFF; opacity: 0.87;
 }
 
-#final-test {
-  margin-top: 40px;
-  margin-bottom: 75px;
-}
-
 /* Skills */
 
 #skills-list {
@@ -257,11 +253,15 @@ button:hover {
 /* Final test */
 
 #final-test {
-  margin-left: 590px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 75px;
 }
 
 .final-test-font {
   font-size: 125%;
+  margin-right: 8px;
 }
 
 input:hover {
@@ -327,10 +327,6 @@ input:hover {
     font-size: 140%;
     margin-right: 25px;
   }
-
-  #final-test {
-    margin-left: 425px;
-  }
 }
 
 /* Media queries for desktops and large screens */
@@ -381,10 +377,6 @@ input:hover {
 
   .about-text {
     font-size: 125%;
-  }
-
-  #final-test {
-    margin-left: 335px;
   }
 
   .social-media-icons li {
@@ -494,10 +486,6 @@ input:hover {
     margin-left: 75px;
   }
 
-  #final-test {
-    margin-left: 205px;
-  }
-
   .social-media-icons li {
     margin-left: 70px;
   }
@@ -541,8 +529,6 @@ input:hover {
   #home-image-and-text {
     display: inline-block;
     text-align: center;
-    padding-top: 0;
-    position: relative;
   }
 
   #elliot-image {
@@ -551,28 +537,75 @@ input:hover {
     padding-top: 77px;
   }
 
+  #home-text {
+    padding-top: 0;
+  }
+
   #home-main-text-1 {
     font-size: 175%;
     margin-top: 0;
-    margin-right: 15px;
-  }
-
-  #home-main-text-2 {
-    font-size: 125%;
-    margin-right: 15px;
   }
 
   h1 {
     font-size: 125%;
-    margin-top: 35px;
+    margin-top: 23px;
     margin-right: 10px;
     margin-left: 10px;
   }
 
   #home-paragraph-text {
     font-size: 90%;
-    margin-top: 35px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: 21px;
+  }
+  
+  h2 {
+    font-size: 150%;
+    padding-top: 75px;
+  }
+
+  .table-education-experience-contact {
+    font-size: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  #skills-list {
+    font-size: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  #projects-table {
+    font-size: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  h3 {
+    font-size: 100%;
+  }
+
+  #contact-form {
+    font-size: 77%;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  
+  .contact-form-font {
+    font-size: 134%;
+  }
+
+  .submit-buttons {
+    font-size: 100%;
+  }
+
+  .about-text {
+    font-size: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .final-test-font {
+    font-size: 100%;
   }
 }
