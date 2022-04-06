@@ -517,15 +517,6 @@ input:hover {
     padding-right: 0; 
   }
 
-  .social-media-icons li {
-    margin-left: 25px;
-  }
-
-  .copyright-notice {
-    font-size: 13px;
-    padding: 5px;
-  }
-
   #home-image-and-text {
     display: inline-block;
     text-align: center;
@@ -608,6 +599,15 @@ input:hover {
   .final-test-font {
     font-size: 100%;
   }
+
+  .social-media-icons li {
+    margin-left: 25px;
+  }
+
+  .copyright-notice {
+    font-size: 13px;
+    padding: 5px;
+  }
 }
 
 /* Media queries for mobile devices */
@@ -635,6 +635,38 @@ input:hover {
     margin-left: 0;
     padding-top: 0;
     padding-right: 0;
+  }
+
+  #home-image-and-text {
+    display: inline-block;
+    text-align: center;
+  }
+
+  #elliot-image {
+    height: 275px;
+    width: 250px;
+    padding-top: 107px;
+  }
+
+  #home-text {
+    padding-top: 0;
+  }
+
+  #home-main-text-1 {
+    font-size: 135%;
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 100%;
+    margin-top: 17px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+
+  #home-paragraph-text {
+    font-size: 90%;
+    margin-top: 14px;
   }
 
   .social-media-icons li {
