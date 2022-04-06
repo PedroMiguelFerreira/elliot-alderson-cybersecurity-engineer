@@ -669,6 +669,69 @@ input:hover {
     margin-top: 14px;
   }
 
+  h2 {
+    font-size: 125%;
+    padding-top: 105px;
+  }
+
+  .table-education-experience-contact {
+    font-size: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  #table-experience {
+    font-size: 85%;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  #skills-list {
+    font-size: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  #projects-table {
+    font-size: 91%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  h3 {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  #contact-details {
+    font-size: 11px;
+    margin-left: 10px;
+  }
+
+  #contact-form {
+    font-size: 100%;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .contact-form-font {
+    font-size: 80%;
+  }
+
+  .submit-buttons {
+    font-size: 77%;
+  }
+
+  .about-text {
+    font-size: 100%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .final-test-font {
+    font-size: 100%;
+  }
+
   .social-media-icons li {
     font-size: 15px;
     margin-left: 12px;
