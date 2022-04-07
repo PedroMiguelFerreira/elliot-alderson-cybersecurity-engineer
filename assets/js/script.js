@@ -13,7 +13,7 @@ elliotImage.addEventListener("mouseover", function(){
 // Mouseout event for Home image
 elliotImage.addEventListener("mouseout", function(){
     if (isDark == false) {
-        this.src="assets/images/elliot-alderson-home-light-mode-image.jpg";
+        this.src="assets/images/elliot-alderson-home-light-mode-image.PNG";
     }
 });
 
@@ -24,7 +24,7 @@ checkbox.addEventListener("change", function(){
         if (isDark == true) {
             elliotImage.src="assets/images/elliot-alderson-home-dark-mode-image.PNG";
         } else {
-            elliotImage.src="assets/images/elliot-alderson-home-light-mode-image.jpg";
+            elliotImage.src="assets/images/elliot-alderson-home-light-mode-image.PNG";
         }
     }
 });
