@@ -338,6 +338,12 @@ input:hover {
     font-size: 140%;
     margin-right: 25px;
   }
+
+  #contact-form-confirmation-message {
+    margin-right: 250px;
+    margin-left: 250px;
+    padding-left: 20px;
+  }
 }
 
 /* Media queries for desktops and large screens */
@@ -384,6 +390,12 @@ input:hover {
     font-size: 125%;
     margin-right: 175px;
     margin-left: 175px;
+  }
+
+  #contact-form-confirmation-message {
+    margin-right: 190px;
+    margin-left: 190px;
+    padding-left: 10px;
   }
 
   .about-text {
@@ -489,6 +501,13 @@ input:hover {
 
   .submit-buttons {
     font-size: 100%;
+  }
+
+  #contact-form-confirmation-message {
+    margin-top: 225px;
+    margin-right: 90px;
+    margin-left: 90px;
+    padding-left: 5px;
   }
 
   .about-text {
@@ -599,6 +618,13 @@ input:hover {
 
   .submit-buttons {
     font-size: 100%;
+  }
+
+  #contact-form-confirmation-message {
+    margin-top: 225px;
+    margin-right: 90px;
+    margin-left: 90px;
+    padding-left: 5px;
   }
 
   .about-text {
@@ -731,6 +757,18 @@ input:hover {
 
   .submit-buttons {
     font-size: 77%;
+  }
+
+  #contact-form-confirmation-message {
+    margin-top: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+  }
+
+  #menu-contact-form-confirmation-message {
+    display: flex;
+    justify-content: center;
   }
 
   .about-text {
