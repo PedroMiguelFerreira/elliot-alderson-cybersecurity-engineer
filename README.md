@@ -32,7 +32,7 @@ This is a portfolio website for Elliot Alderson, a freelance cybersecurity engin
 
 #### **o	Color Scheme**
 
-**a.**	Two of the colors used on this website revolve around the colors of *Mr. Robot*'s logo on the TV show: black and red, which lend a dramatic and dangerous look to the navbar, the footer and the hacker mode toggle switch and help create the noir ambiance so typical of Elliot Alderson's world in *Mr. Robot*. On dark mode, this is even more important, merging the black background with a dark/mysterious photo of Elliot Alderson on hacker mode himself. It's a dark world Elliot lives in, hence the black color, very typical of hackers, and the psychological and physical violence in his life is perfectly expressed through the red color. On light/normal mode, and because this is supposed to be a professional portfolio website, a lighter color (in this case, light gray) was used as background color – this was done, first, to avoid a lifeless and too common white color as background (portfolio websites usually use neutral background colors, like white, gray or black – this is done not to distract the users so they can focus on the portfolio of projects, which are usually multicolored) and, second, to optimize readability by providing good contrast between a light background color and a much darker text color (in this case, black was used as text color). The text color used in dark mode is, for many reasons, white: first, because it's the best color when the background color used is black (for readability reasons) and, second, and because Elliot Alderson and *Mr. Robot* are both about hacking, the white text on a black screen perfectly imitates a hacker at work, as seen throughout the TV show (an opacity of 0.87 was used as pure white on a back background is bad for the eyes – this is quite common among programmers, hackers and other dark mode users). Given the content and the theme of the website, I believe this black-red-white-light gray four-color combination works well, suits the layout and triggers a good emotional response from the users, whether they're clients or fans.
+**a.**	Two of the colors used on this website revolve around the colors of *Mr. Robot*'s logo on the TV show: black and red, which lend a dramatic and dangerous look to the navbar, the footer, the hacker mode toggle switch and all hyperlinks throughout the site and help create the noir ambiance so typical of Elliot Alderson's world in *Mr. Robot*. On dark mode, this is even more important, merging the black background with a dark/mysterious photo of Elliot Alderson on hacker mode himself. It's a dark world Elliot lives in, hence the black color, very typical of hackers, and the psychological and physical violence in his life is perfectly expressed through the red color. On light/normal mode, and because this is supposed to be a professional portfolio website, a lighter color (in this case, light gray) was used as background color – this was done, first, to avoid a lifeless and too common white color as background (portfolio websites usually use neutral background colors, like white, gray or black – this is done not to distract the users so they can focus on the portfolio of projects, which are usually multicolored) and, second, to optimize readability by providing good contrast between a light background color and a much darker text color (in this case, black was used as text color). The text color used in dark mode is, for many reasons, white: first, because it's the best color when the background color used is black (for readability reasons) and, second, and because Elliot Alderson and *Mr. Robot* are both about hacking, the white text on a black screen perfectly imitates a hacker at work, as seen throughout the TV show (an opacity of 0.87 was used as pure white on a back background is bad for the eyes – this is quite common among programmers, hackers and other dark mode users). Given the content and the theme of the website, I believe this black-red-white-light gray four-color combination works well, suits the layout and triggers a good emotional response from the users, whether they're clients or fans.
 
 #### **o	Typography**
 
@@ -40,15 +40,83 @@ This is a portfolio website for Elliot Alderson, a freelance cybersecurity engin
 
 #### **o	Imagery**
 
-**a.**	Portfolio websites usually have a nice, friendly-looking photo of the author of the projects/creator of the website on the main page (followed by a name and a short introduction), so the same layout was used here. Elliot Alderson is not the most photogenic or friendly-looking person in the world (very much on purpose, as he's a very troubled young man), and the photo used on this website reflects that by aligning it with the dark aura of the character in *Mr. Robot*, but still portraying him as a legit/believable freelance cybersecurity engineer. When the user hovers over the main image, it changes, showing us a photo of *Mr. Robot* himself, Elliot's dark side as seen on the TV show (it was made slightly bigger in order to give the user that dramatic, in-your-face and sudden change to Elliot's dangerous alter ego). Both images were also made slightly grayer to give them that typical noir look of *Mr. Robot*'s universe, and their background was also altered in order for it to blend with the background color of the body of the website used for the light mode. When the user chooses to view the website in dark/hacker mode, the image changes to a more mysterious photo of Elliot, showing him wearing his famous black hoodie, very hacker-like, which matches the black background and, at the same time, presents the user with a striking and kind of scary layout, so typical of the TV show this character comes from.
+**a.**	Portfolio websites usually have a nice, friendly-looking photo of the author of the projects/creator of the website on the main page (followed by a name and a short introduction), so the same layout was used here. Elliot Alderson is not the most photogenic or friendly-looking person in the world (very much on purpose, as he's a very troubled young man), and the photo used on this website reflects that by aligning it with the dark aura of the character in *Mr. Robot*, but still portraying him as a legit/believable freelance cybersecurity engineer. When the user hovers over the main image, it changes, showing us a photo of *Mr. Robot* himself, Elliot's dark side as seen on the TV show (it was made slightly bigger in order to give the user that dramatic, in-your-face and sudden change to Elliot's dangerous alter ego). Both images were also made slightly grayer to give them that typical noir look of *Mr. Robot*'s universe, and their background was also altered in order for it to blend with the background color of the body of the website used for the light mode. When the user chooses to view the website in dark/hacker mode, the image changes to a more mysterious photo of Elliot, showing him wearing his famous black hoodie, very hacker-like, which matches the black background and, at the same time, presents the user with a striking and kind of scary layout, so typical of the TV show this character comes from. Also, there's a favicon on the browser's tab (the symbol of fsociety, the hacker group created by Elliot in *Mr. Robot* – very appropriately, it's the image of a Guy Fawkes-like mask, an international symbol for hacking).
 
 •	Wireframes
 o	Home Page Wireframe - View
 o	Mobile Wireframe - View
 o	Contact Us Page Wireframe - View
-Features
+
+## **Features**
+
 •	Responsive on all device sizes
-•	Interactive elements
+
+•	Interactive elements (described on each of the following website sections)
+
+•	Navigation Bar
+
+o	Featured at the top of the scrolling single-page, the fully responsive navigation/link bar introduces the user to all the specific content on the website by showing links (hover.css was used to add an underline effect to each link while being hovered over) to the Home section, the Education section, the Experience section, the Skills section, the Projects section, the Contact section and the About section. It's a sticky navigation/link bar, so it follows the user's viewport as he/she scrolls down the long single-page, allowing the user to easily navigate through the content across all devices without having to go back to the top of the page to access other sections. It obeys the combination of colors described on the Color Scheme section of this document, and it also contains *Mr Robot*'s logo, and the combination of colors used was created around it. Though its layout seems a bit similar to the navbar created for the first project by the creator of this website (which was a sticky navbar, too and, purely as a coincidence, it just so happens to have seven links as well), its style is different, it's different in the way it looks, in the way it was coded and in the way it responds to different device sizes. And, because it fits the style of the site that its creator envisioned, the final version seems appropriate (the creator of this website believes that there's no need to create a completely different navbar just for it to be completely different – again, this kind of navbar layout seems to suit this kind of site, and it is believed to look different enough not to be considered too close to the one on the previous project).
+
+[Screenshot of the navbar here](assets/docs/navbar-screenshot.png)
+
+•	The Home Section
+
+o	The Home section works as the landing page, which predictably includes a photo of the cybersecurity engineer who owns this portfolio website (Elliot Alderson) and some introductory text describing the purpose of the site next to it. It also includes a dark mode toggle switch, which can be used to view the website in dark mode (or, jokingly, in Hacker Mode – a reference to the TV show, for fans only). As explained on the Imagery sub-section of this README.md file, when the user hovers over the main image, it changes, showing us a photo of *Mr. Robot* himself, Elliot's dark side as seen on the TV show (it was made slightly bigger in order to give the user that dramatic, in-your-face and sudden change to Elliot's dangerous alter ego). It's the same in dark mode, but the image of Elliot is different (a darker, more mysterious one was used) and it doesn't change when hovered over. In mobile devices, and because the layout has to be responsive and fit images and text into a smaller space, the image appears stacked on top of the introductory text and the dark mode toggle switch.
+
+[Screenshot of the Home section in light mode here](assets/docs/home-section-light-mode-screenshot.png)
+
+[Screenshot of the Home section in dark mode here](assets/docs/home-section-dark-mode-screenshot.png)
+
+•	The Education Section
+
+o	A resume-like list of Elliot Alderson's education. This is completely made up by the creator of this website, based on information about real cybersecurity engineers found online (these details are not disclosed on the TV show, and most fans assume Elliot was self-taught), but it's necessary information in a portfolio website. It includes a BA in Computer Science in Princeton University in New Jersey (Elliot lives in New York in *Mr. Robot*) and a list of certifications. This section was coded using an HTML table.
+
+[Screenshot of the Education section here](assets/docs/education-section-screenshot.png)
+
+•	The Experience Section
+
+o	A resume-like list of Elliot Alderson's work experience based on the timeline of the TV show, with the exception of Code Institute's entry (obviously and jokingly made up by the creator of this website – there was a company Elliot worked for before working for Allsafe, but its name is never mentioned in *Mr. Robot*). The clickable links will take the user to a fandom website page about that specific topic of the show. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website. This section was also coded using an HTML table.
+
+[Screenshot of the Experience section here](assets/docs/experience-section-screenshot.png)
+
+•	The Skills Section
+
+o	A resume-like list of Elliot Alderson's skills as a cybersecurity engineer and, in a funny way, a hacker (even social engineering is mentioned as a skill). These details are completely made up by the creator of this website, based on information about real cybersecurity engineers found online (except for his hacking skills on the first entry), but it's necessary information in a portfolio website.
+
+[Screenshot of the Skills section here](assets/docs/skills-section-screenshot.png)
+
+•	The Projects Section
+
+o	A resume-like list of Elliot Alderson's projects. One would expect these would be cybersecurity-related projects, but are in fact, and in a humorous manner, all hacking-related, and all they obey the show's timeline (fans will know what these are, potential clients will just be really scared, but also impressed, hopefully). Each clickable link will take the user to a YouTube pages/video about that specific hack as it happened on the show. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website. This section was also coded using an HTML table.
+
+[Screenshot of the Projects section here](assets/docs/projects-section-screenshot.png)
+
+•	The Contact Section
+
+o	This section includes two sub-sections: a resume-like list of Elliot Alderson's personal and contact information (all the info is exactly the same as shown on the TV show – this sub-section was also coded using an HTML table) and a contact form with six input fields, including three dropdown menus with several options, that can be used to contact Elliot Alderson by providing personal and contact details as well as a description of the services required by the user, and a submit button. Once submitted, a confirmation page will come up on the screen to validate the submission (in a very Elliot-like way – please see screenshot below) and an email with a copy of the details provided will be sent to the email address provided informing the client that fsociety (another *Mr. Robot* reference) will contact him/her soon with an estimated quote for the services required (the creator of this website receives the same email, too). Responsive design is used on this contact form: if no name is inserted on the "Name" field, an alert pops up to let the user know this information is required in order to proceed. The same happens with the "Email" field, where a proper email address (in email address format) must be inputted.
+
+[Screenshot of the Contact section here](assets/docs/contact-section-screenshot.png)
+
+[Screenshot of the Contact Form sub-section here](assets/docs/contact-form-sub-section-screenshot.png)
+
+[Screenshot of the Contact Form email confirmation here](assets/docs/contact-form-email-confirmation.png)
+
+•	The About Section
+
+o	This section includes a synopsis of *Mr. Robot* and some information about the show, as well as a simple password-cracking test (a final test in order for the user to be able to join fsociety – one of many references to this TV show, as Elliot Alderson is an expert at cracking other people's passwords). A clue is provided, and true fans will figure out the answer but, to make it easy for the Assessment Team, the password can be revealed: it's "whiterose" (in the context of *Mr. Robot*, "God is a pale flower" should be interpreted as "Deus is a white rose" – "Deus" is the latin word for "god", it's also the name of an investment group formed in the wake of the collapse of the Soviet Union to bring together the world's most powerful and wealthy men to manipulate global events for profit, as it's shown on the show, and Whiterose, one of the main antagonists throughout the show's four seasons, is its founder and leader). If the user gets it right, an alert message with an acceptance speech by Elliot pops up; if the user's guess is wrong, an alert message from Elliot saying goodbye pops up. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website.
+
+[Screenshot of the Contact Form email confirmation here](assets/docs/contact-form-email-confirmation.png)
+
+[Screenshot of the Final Test correct password alert here](assets/docs/final-test-correct-password-alert-screenshot.png)
+
+[Screenshot of the Final Test incorrect password alert here](assets/docs/final-test-incorrect-password-alert-screenshot.png)
+
+•	Footer
+
+o	The footer section includes a “Copyright © 2022 Elliot Alderson” notice – it’s shown on every section of the website (it's a sticky footer, so it follows the user's viewport as he/she scrolls up and down the long single-page website). Just like the navbar, it obeys the combination of colors described on the Color Scheme section of this document. This sticky footer was created as small as possible (differently from the navbar in that sense) as the information on it is not as relevant to the user experience as the navbar, for example, so this keeps the footer from stealing valuable space from the rest of the content of the website. The social media icons on it (for YouTube, Instagram, Twitter and Facebook) lead the user to the official social media pages for *Mr. Robot*. No hover.css was used on the social media icons in the footer (to add the float transition while being hovered over) because the footer bar would grow in size momentaneously as the icons were being hovered over, lending a strange visual effect to the user's viewport and the general user experience. Though its layout seems a bit similar to the footer created for the first project by the creator of this website (which was a sticky footer, too and, purely as a coincidence, it just so happens to have four social media icons as well), its style is different, it's different in the way it looks, in the way it was coded and in the way it responds to different device sizes. And, because it fits the style of the site that its creator envisioned, the final version seems appropriate (the creator of this website believes that there's no need to create a completely different footer just for it to be completely different – again, this kind of footer layout seems to suit this kind of site, and it is believed to look different enough not to be considered too close to the one on the previous project).
+
+[Screenshot of the footer here](assets/docs/footer-screenshot.png)
+
 Technologies Used
 Languages Used
 •	HTML5
