@@ -123,29 +123,54 @@ o	The footer section includes a “Copyright © 2022 Elliot Alderson” notice �
 
 •	A blog section for *Mr. Robot* fans.
 
-Technologies Used
-Languages Used
-•	HTML5
-•	CSS3
-Frameworks, Libraries & Programs Used
-1.	Bootstrap 4.4.1:
-o	Bootstrap was used to assist with the responsiveness and styling of the website.
-2.	Hover.css:
-o	Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3.	Google Fonts:
-o	Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4.	Font Awesome:
-o	Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5.	jQuery:
-o	jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6.	Git
-o	Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7.	GitHub:
-o	GitHub is used to store the projects code after being pushed from Git.
-8.	Photoshop:
-o	Photoshop was used to create the logo, resizing images and editing photos for the website.
-9.	Balsamiq:
+## **Technologies Used**
+
+### **Languages Used**
+
+•	[HTML5](https://en.wikipedia.org/wiki/HTML5)
+
+•	[CSS3](https://en.wikipedia.org/wiki/CSS)
+
+•	[JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### **Frameworks, Libraries & Programs Used**
+
+**1.**	[Hover.css](https://ianlunn.github.io/Hover/):
+o	Hover.css was used to add an underline effect to each link on the navbar and the website's text while being hovered over.
+
+**2.**	[Google Fonts](https://fonts.google.com/):
+o	Google fonts were used to import the "Fira Code" font into the style.css file - this font was used throughout the project.
+
+**3.**	[Font Awesome](https://fontawesome.com/):
+o	Font Awesome was used on the footer bar to add social media icons for aesthetic and UX purposes.
+
+**4.**	[Git](https://git-scm.com/):
+o	Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+
+**5.**	[GitHub](https://github.com/):
+o	GitHub is used to store the project's code after being pushed from Git.
+
+**6.**	Snipping tool:
+o	A snipping tool was used to create the logo and resizing/editing the photos/images for the website.
+
+**7.** [TinyPNG](https://tinypng.com/):
+o	TinyPNG was used to compress all photos/images on the website.
+
+**8.**	[Balsamiq](https://balsamiq.com/):
 o	Balsamiq was used to create the wireframes during the design process.
+
+**9.** [PDF To Image converter](https://pdf2png.com/):
+o	PDF To Image converter was used to convert the PDFs of the wireframes to image format so they could be uploaded to and accessible on GitPod and GitHub.
+
+**10.** [WebAIM](https://webaim.org/resources/contrastchecker/):
+o	WebAim was used as a contrast checker to find the right combination of colors for the website.
+
+**11.** [remove.bg](https://www.remove.bg/t/change-background)
+o	remove.bg was used to remove the original background of the photos used and match them with the chosen combination of colors on the website.
+
+**12.** [EmailJS](https://www.emailjs.com/)
+o	EmailJS was used to set up the contact form on the website to send a detailed email confirmation to the user once he/she submits his/her form.
+
 Testing
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 •	W3C Markup Validator - Results
