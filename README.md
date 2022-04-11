@@ -117,6 +117,12 @@ o	The footer section includes a “Copyright © 2022 Elliot Alderson” notice �
 
 [Screenshot of the footer here](assets/docs/footer-screenshot.png)
 
+## **Features Left to Implement**
+
+•	Payment functionality, like in an e-Commerce website, where clients can pay for the cybersecurity services provided by Elliot Alderson directly on the site and receive payment confirmation.
+
+•	A blog section for *Mr. Robot* fans.
+
 Technologies Used
 Languages Used
 •	HTML5

@@ -60,7 +60,10 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         timeframe: timeframe,
         additionalInformation: additionalInformation
     };
-        
+
+    // To reset the form
+    document.getElementById('contactForm').reset();
+
     // To send the email
     emailjs.send('service_yvo76ku', 'template_968r6ml', templateParams)
     .then(function(response){
