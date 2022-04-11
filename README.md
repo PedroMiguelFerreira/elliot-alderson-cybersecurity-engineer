@@ -150,7 +150,7 @@ o	The footer section includes a “Copyright © 2022 Elliot Alderson” notice �
 
 ## **Features Left to Implement**
 
-•	Payment functionality, like in an e-Commerce website, where clients can pay for the cybersecurity services provided by Elliot Alderson directly on the site and receive payment confirmation.
+•	Payment functionality, like on an e-Commerce website, where clients can pay for the cybersecurity services provided by Elliot Alderson directly on the site and receive payment confirmation.
 
 •	A blog section for *Mr. Robot* fans.
 
@@ -217,7 +217,7 @@ Google Chrome's DevTools were used to thoroughly test this website, including th
 
 [Mobile]()
 
-### **Testing User Stories from User Experience (UX) Section**
+### **Testing User Stories from the User Experience (UX) Section**
 
 #### **•	First Time Visitor Goals**
 
@@ -247,7 +247,7 @@ a.	I believe the (good) first impression made on most first-time users has paid 
 
 **ii.**	As a returning visitor, I want to enjoy the references to/content about/external links to *Mr. Robot*’s universe again – I like the themeable customization of the website and how it makes me feel like a hacker and part of an exclusive and dangerous community, which is very exciting.
 
-a.	The feedback from the fans of the TV show that visited the website and that I contacted provided very positive feedback. The content is considered to be entertaining (including the content that was completely fabricated by the creator of this website), original and believable (including the "serious" parts about Elliot Alderson as a normal, real-world cybersecurity engineer instead of a hacker). The site was also considered to look professional enough to fool non-fans by a few visitors, which made the creator of this website a mildly happy man.
+a.	The feedback from the fans of the TV show that visited the website and that I contacted provided very positive feedback. The content is considered to be entertaining (including the content that was completely fabricated by the creator of this website), original and believable (including the "serious" parts about Elliot Alderson as a normal, real-world cybersecurity engineer instead of a TV show hacker). The site was also considered to look professional enough to fool non-fans by a few visitors, which made the creator of this website a mildly happy man.
 
 #### **•	Frequent User Goals**
 
@@ -257,13 +257,18 @@ a.	Users would already be comfortable with the website layout and could easily n
 
 **ii.**	As a frequent user, I want to use the external links on the website to check if there are any newly added posts/updates about Elliot Alderson’s work or *Mr. Robot* on social media and other fansites.
 
-a.	This will never change: the social media links on the footer will allow any user to do just so at all times.
+a.	This will never change: the social media links on the footer will allow any user to do this at all times.
 
-Further Testing
-•	The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-•	The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
-•	A large amount of testing was done to ensure that all pages were linking correctly.
-•	Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+### **Further Testing**
+
+•	The website was tested on the Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers (on Safari only by my mentor - he confirmed it was fully responsive and functional). It was not tested on Internet Explorer as it's no longer supported.
+
+•	The website was viewed on a variety of devices such as large laptops, medium/smaller laptops, tablets, phablets, larger mobile phones and medium/smaller mobile phones.
+
+•	A large amount of testing was done to ensure that all section links on the navbar were linking correctly. The same was done for all the external links on the website, including the social media icons on the footer bar. All JavaScript functionality (the mouseover/mouseout events for the main images on light mode, the dark mode toggle switch, the contact form confirmation email and the password-cracking test) was also tested on all possible devices.
+
+•	Friends, family members and *Mr. Robot* fans were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
 Known Bugs
 •	On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
 o	A white gap can be seen to the right of the footer and navigation bar as a result.
