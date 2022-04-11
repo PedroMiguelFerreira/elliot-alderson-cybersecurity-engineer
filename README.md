@@ -42,10 +42,39 @@ This is a portfolio website for Elliot Alderson, a freelance cybersecurity engin
 
 **a.**	Portfolio websites usually have a nice, friendly-looking photo of the author of the projects/creator of the website on the main page (followed by a name and a short introduction), so the same layout was used here. Elliot Alderson is not the most photogenic or friendly-looking person in the world (very much on purpose, as he's a very troubled young man), and the photo used on this website reflects that by aligning it with the dark aura of the character in *Mr. Robot*, but still portraying him as a legit/believable freelance cybersecurity engineer. When the user hovers over the main image, it changes, showing us a photo of *Mr. Robot* himself, Elliot's dark side as seen on the TV show (it was made slightly bigger in order to give the user that dramatic, in-your-face and sudden change to Elliot's dangerous alter ego). Both images were also made slightly grayer to give them that typical noir look of *Mr. Robot*'s universe, and their background was also altered in order for it to blend with the background color of the body of the website used for the light mode. When the user chooses to view the website in dark/hacker mode, the image changes to a more mysterious photo of Elliot, showing him wearing his famous black hoodie, very hacker-like, which matches the black background and, at the same time, presents the user with a striking and kind of scary layout, so typical of the TV show this character comes from. Also, there's a favicon on the browser's tab (the symbol of fsociety, the hacker group created by Elliot in *Mr. Robot* – very appropriately, it's the image of a Guy Fawkes-like mask, an international symbol for hacking).
 
-•	Wireframes
-o	Home Page Wireframe - View
-o	Mobile Wireframe - View
-o	Contact Us Page Wireframe - View
+## **•	Wireframes**
+
+o Desktop wireframe (Home page) - [View]()
+
+o Desktop wireframe (Education page) - [View]()
+
+o Desktop wireframe (Experience page) - [View]()
+
+o Desktop wireframe (Skills page) - [View]()
+
+o Desktop wireframe (Projects page) - [View]()
+
+o Desktop wireframe (Contact page) - [View]()
+
+o Desktop wireframe (About page) - [View]()
+
+o Desktop wireframe (Contact form confirmation message page) - [View]()
+
+o Mobile wireframe (Home page) - [View]()
+
+o Mobile wireframe (Education page) - [View]()
+
+o Mobile wireframe (Experience page) - [View]()
+
+o Mobile wireframe (Skills page) - [View]()
+
+o Mobile wireframe (Projects page) - [View]()
+
+o Mobile wireframe (Contact page) - [View]()
+
+o Mobile wireframe (About page) - [View]()
+
+o Mobile wireframe (Contact form confirmation message page) - [View]()
 
 ## **Features**
 
@@ -159,22 +188,33 @@ o	TinyPNG was used to compress all photos/images on the website.
 **8.**	[Balsamiq](https://balsamiq.com/):
 o	Balsamiq was used to create the wireframes during the design process.
 
-**9.** [PDF To Image converter](https://pdf2png.com/):
-o	PDF To Image converter was used to convert the PDFs of the wireframes to image format so they could be uploaded to and accessible on GitPod and GitHub.
-
-**10.** [WebAIM](https://webaim.org/resources/contrastchecker/):
+**9.** [WebAIM](https://webaim.org/resources/contrastchecker/):
 o	WebAim was used as a contrast checker to find the right combination of colors for the website.
 
-**11.** [remove.bg](https://www.remove.bg/t/change-background)
+**10.** [remove.bg](https://www.remove.bg/t/change-background)
 o	remove.bg was used to remove the original background of the photos used and match them with the chosen combination of colors on the website.
 
-**12.** [EmailJS](https://www.emailjs.com/)
+**11.** [EmailJS](https://www.emailjs.com/)
 o	EmailJS was used to set up the contact form on the website to send a detailed email confirmation to the user once he/she submits his/her form.
 
-Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-•	W3C Markup Validator - Results
-•	W3C CSS Validator - Results
+## **Testing**
+
+The W3C Markup Validator Service, the W3C CSS Validator Service and the JSHint Static Code Analysis Tool for JavaScript were used to validate every page of this project to ensure there were no syntax errors in the project.
+
+•	W3C Markup Validator - [Results]()
+
+•	W3C CSS Validator - [Results]()
+
+•	JSHint - [Results]()
+
+The [Am I Responsive?](http://ami.responsivedesign.is/) website design tester was used to test the responsiveness of this website. [Screenshot here]()
+
+Google Chrome's DevTools were used to thoroughly test this website, including the Lighthouse tool - please see below screenshots of both Lighthouse reports (one for desktop and one for mobile - the xx in xx for mobile is due to xx xx xx xx xx xx xx xx xx xx xx xx xx xx ):
+
+[Desktop]()
+
+[Mobile]()
+
 Testing User Stories from User Experience (UX) Section
 •	First Time Visitor Goals
 i.	As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
@@ -221,6 +261,7 @@ Known Bugs
 •	On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
 o	A white gap can be seen to the right of the footer and navigation bar as a result.
 •	On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+
 Deployment
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
