@@ -128,13 +128,15 @@ o	This section includes two sub-sections: a resume-like list of Elliot Alderson'
 
 [Screenshot of the Contact Form sub-section here](assets/docs/contact-form-sub-section-screenshot.png)
 
+[Screenshot of the Contact Form confirmation message here]()
+
 [Screenshot of the Contact Form email confirmation here](assets/docs/contact-form-email-confirmation.png)
 
 •	The About Section
 
-o	This section includes a synopsis of *Mr. Robot* and some information about the show, as well as a simple password-cracking test (a final test in order for the user to be able to join fsociety – one of many references to this TV show, as Elliot Alderson is an expert at cracking other people's passwords). A clue is provided, and true fans will figure out the answer but, to make it easy for the Assessment Team, the password can be revealed: it's "whiterose" (in the context of *Mr. Robot*, "God is a pale flower" should be interpreted as "Deus is a white rose" – "Deus" is the latin word for "god", it's also the name of an investment group formed in the wake of the collapse of the Soviet Union to bring together the world's most powerful and wealthy men to manipulate global events for profit, as it's shown on the show, and Whiterose, one of the main antagonists throughout the show's four seasons, is its founder and leader). If the user gets it right, an alert message with an acceptance speech by Elliot pops up; if the user's guess is wrong, an alert message from Elliot saying goodbye pops up. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website.
+o	This section includes a synopsis of *Mr. Robot* and some information about the show, as well as a simple password-cracking test (a final test in order for the user to be able to join fsociety – one of many references to this TV show, as Elliot Alderson is an expert at cracking other people's passwords). A clue is provided, and true fans will figure out the answer but, to make it easy for the Assessment Team, the password can be revealed: it's "whiterose" (in the context of *Mr. Robot*, "God is a pale flower" should be interpreted as "Deus is a white rose" – "Deus" is the latin word for "god", it's also the name of an investment group formed in the wake of the collapse of the Soviet Union to bring together the world's most powerful and wealthy men to manipulate global events for profit, as it's shown on the show, and Whiterose, one of the main antagonists throughout the show's four seasons, is its founder and leader). If the user gets it right, an alert message with a welcome speech by Elliot pops up; if the user's guess is wrong, an alert message from Elliot saying goodbye pops up. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website.
 
-[Screenshot of the Contact Form email confirmation here](assets/docs/contact-form-email-confirmation.png)
+[Screenshot of the About section here](assets/docs/about-section-screenshot.png)
 
 [Screenshot of the Final Test correct password alert here](assets/docs/final-test-correct-password-alert-screenshot.png)
 
@@ -201,7 +203,7 @@ o	EmailJS was used to set up the contact form on the website to send a detailed 
 
 The W3C Markup Validator Service, the W3C CSS Validator Service and the JSHint Static Code Analysis Tool for JavaScript were used to validate every page of this project to ensure there were no syntax errors in the project.
 
-•	W3C Markup Validator - [Results]()
+•	W3C Markup Validator - [Results for the Index HTML page]() - [Results for the Contact Form Confirmation Message HTML page]()
 
 •	W3C CSS Validator - [Results]()
 
@@ -215,43 +217,48 @@ Google Chrome's DevTools were used to thoroughly test this website, including th
 
 [Mobile]()
 
-Testing User Stories from User Experience (UX) Section
-•	First Time Visitor Goals
-i.	As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-a.	Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-b.	The main points are made immediately with the hero image
-c.	The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-ii.	As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-a.	The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-b.	At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-c.	On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-iii.	As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-a.	Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-b.	The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-c.	At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-•	Returning Visitor Goals
-i.	As a Returning Visitor, I want to find the new programming challenges or hackathons.
-a.	These are clearly shown in the banner message.
-b.	They will be directed to a page with another hero image and call to action.
-ii.	As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-a.	The navigation bar clearly highlights the "Contact Us" Page.
-b.	Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-c.	The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-d.	Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-e.	The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-iii.	As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-a.	The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-b.	Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-c.	If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-•	Frequent User Goals
-i.	As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-a.	The user would already be comfortable with the website layout and can easily click the banner message.
-ii.	As a Frequent User, I want to check to see if there are any new blog posts.
-a.	The user would already be comfortable with the website layout and can easily click the blog link
-iii.	As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-a.	At the bottom of every page their is a footer which content is consistent throughout all pages.
-b.	To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-c.	There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+### **Testing User Stories from User Experience (UX) Section**
+
+#### **•	First Time Visitor Goals**
+
+**i.**	As a first-time visitor, I want to easily understand the main purpose of the site and learn more about the cybersecurity services offered by Elliot Alderson and, because I’m a fan, I want to enjoy the several references to the TV show this fictitious character belongs to (*Mr. Robot*). This mixture of reality and fantasy/fiction is a recurrent theme on the show and its purpose is obvious to any fan who visits the website whether they’re potential clients or not.
+
+a.	Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page section of their choice. The logo for *Mr. Robot* on the navbar, an obvious reference to the TV show, together with the photo of Elliot Alderson, the introductory text on the main page and the "Visit this website in Hacker Mode" toggle switch, immediately make the user aware that it's a website about *Mr. Robot* and make the CTA (Call-to-Action) obvious – at this stage, the user wants to know more. A user who is a fan of this TV show will be amused, as it's obvious, because of the information on the navbar and the main page, that it's also a website where cybersecurity services are being offered – by a fictitious character (this user definitely knows what the website is about, what to expect and will want to know more – again, the CTA is obvious). The users who don't know about the show will think that the man on the photo looks a bit odd (and it gets odder when the user hovers over it) and the way he addresses the user on the main page ("Hello, friend", something only Elliot would say) is just weird, but they'll be convinced that it's legit when they read the wording on the navbar ("Education", Experience", "Skills", Projects", Contact, etc.) and the rest of the introductory text on the main page ("I provide consultation, design and development of cybersecurity projects for independent clients"), only to be brought back to a suspicious attitude towards the site when they see the "Visit this website in Hacker Mode" toggle switch – but, at this stage, they want to know more, including the cybersecurity services being offered, and they have all the necessary information and guidance to proceed and explore the rest of the website. And the About section clearly explains what the site is all about. All sections of the site are clearly identified and the content, though sometimes amusing due to the fictitious nature of the website, is clear and accessible for both fans and potential clients. On mobile devices, the users' first impression/experience should be the same.
+
+b.	The user has two options: click the Call-to-Action buttons in the navbar and the main page or scroll down, both of which will lead to the same sections of the site, to learn more about Elliot Alderson's cybersecurity services, *Mr. Robot* or both.
+
+**ii.**	As a first-time visitor, I want to be able to easily navigate throughout the site to find content.
+
+a.	The site has been designed to be fluid and never to entrap the user. The sticky navigation bar follows the user's viewport as he/she scrolls up and down the page, and each link describes the section of the website they'll end up at clearly. This way, the user always has somewhere to go and doesn't feel trapped as they get to the end of a section or to the end of the page. The confirmation message page for the contact form also has a "Home" button so the user can go back to the main page.
+
+b.	The sticky footer, which also follows the user's viewport throughout any scrolling, allows the user to see who created the site and click on the social media icons to visit those pages at all times (a first-time visitor may want to see Elliot Alderson's followings on social media to know more about him, the services he's offering and/or *Mr. Robot*, or to interact with other fans of the TV show).
+
+c.	All these goals have been achieved by every visitor to this website that I contacted (family, friends, *Mr. Robot* fans, etc.): most fans found it easy to navigate and the content to be entertaining, and most non-fans also found it easy to navigate and also original and acceptable as a website for a weird professional cybersecurity engineer who wants to do business online. Whichever social media link the user clicks on opens in a new tab to ensure he/she can easily get back to the website (the same applies to any other external links on the website).
+
+**iii.**	As a first-time visitor, I want to locate Elliot Alderson’s social media links to see his followings on social media, look for user testimonials and determine how trusted and known he is before I do business with him.
+
+a.	The social media links on the ever-present sticky footer (for YouTube, Instagram, Twitter and Facebook) are easy to access at all times. Having in mind that Elliot Alderson doesn't exist, the social media pages the users will land on are related to the TV show, which, at this stage, has added to the amusement of both fans and non-fans that visited this site.
+
+#### **•	Returning Visitor Goals**
+
+**i.**	As a returning visitor, I need to use the cybersecurity services offered by Elliot Alderson (again or for the first time), or I want to find the best way to get in contact with him with any questions I may have about his services and how I can use them on my projects.
+
+a.	I believe the (good) first impression made on most first-time users has paid back, as more family members, friends and *Mr. Robot* fans that I contacted visited the website again to look at the content and use the contact form – and some fans, and even non-fans, said they even emailed Elliot and called the cell phone number provided on the site, some of them believing Elliot actually existed, which is hilarious (the creator of this website never thought that most non-fans he would contact would believe the Elliot portrayed on this site is real, but most of them did), so this goal has been achieved.
+
+**ii.**	As a returning visitor, I want to enjoy the references to/content about/external links to *Mr. Robot*’s universe again – I like the themeable customization of the website and how it makes me feel like a hacker and part of an exclusive and dangerous community, which is very exciting.
+
+a.	The feedback from the fans of the TV show that visited the website and that I contacted provided very positive feedback. The content is considered to be entertaining (including the content that was completely fabricated by the creator of this website), original and believable (including the "serious" parts about Elliot Alderson as a normal, real-world cybersecurity engineer instead of a hacker). The site was also considered to look professional enough to fool non-fans by a few visitors, which made the creator of this website a mildly happy man.
+
+#### **•	Frequent User Goals**
+
+**i.**	As a frequent user, I need to use the cybersecurity services offered by Elliot Alderson again, or to get in contact with him with any questions I may have about his services and how I can use them on more projects of mine.
+
+a.	Users would already be comfortable with the website layout and could easily navigate around. Though no user has visited this website frequently in order to provide feedback (it was just created), it is believed that the website provides a good user experience and would allow any frequent users to use the cybersecurity services offered by Elliot Alderson again and again, as well as contact the professional cybersecurity engineer behind this website (if he was real).
+
+**ii.**	As a frequent user, I want to use the external links on the website to check if there are any newly added posts/updates about Elliot Alderson’s work or *Mr. Robot* on social media and other fansites.
+
+a.	This will never change: the social media links on the footer will allow any user to do just so at all times.
+
 Further Testing
 •	The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 •	The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
