@@ -44,37 +44,37 @@ This is a portfolio website for Elliot Alderson, a freelance cybersecurity engin
 
 ## **•	Wireframes**
 
-o Desktop wireframe (Home page) - [View]()
+o Desktop wireframe (Home page) - [View](assets/wireframes/wireframe-elliot-alderson-home-desktop.png)
 
-o Desktop wireframe (Education page) - [View]()
+o Desktop wireframe (Education page) - [View](assets/wireframes/wireframe-elliot-alderson-education-desktop.png)
 
-o Desktop wireframe (Experience page) - [View]()
+o Desktop wireframe (Experience page) - [View](assets/wireframes/wireframe-elliot-alderson-experience-desktop.png)
 
-o Desktop wireframe (Skills page) - [View]()
+o Desktop wireframe (Skills page) - [View](assets/wireframes/wireframe-elliot-alderson-skills-desktop.png)
 
-o Desktop wireframe (Projects page) - [View]()
+o Desktop wireframe (Projects page) - [View](assets/wireframes/wireframe-elliot-alderson-projects-desktop.png)
 
-o Desktop wireframe (Contact page) - [View]()
+o Desktop wireframe (Contact page) - [View](assets/wireframes/wireframe-elliot-alderson-contact-desktop.png)
 
-o Desktop wireframe (About page) - [View]()
+o Desktop wireframe (About page) - [View](assets/wireframes/wireframe-elliot-alderson-about-desktop.png)
 
-o Desktop wireframe (Contact form confirmation message page) - [View]()
+o Desktop wireframe (Contact form confirmation message page) - [View](assets/wireframes/wireframe-elliot-alderson-confirmation-desktop.png)
 
-o Mobile wireframe (Home page) - [View]()
+o Mobile wireframe (Home page) - [View](assets/wireframes/wireframe-elliot-alderson-home-mobile.png)
 
-o Mobile wireframe (Education page) - [View]()
+o Mobile wireframe (Education page) - [View](assets/wireframes/wireframe-elliot-alderson-education-mobile.png)
 
-o Mobile wireframe (Experience page) - [View]()
+o Mobile wireframe (Experience page) - [View](assets/wireframes/wireframe-elliot-alderson-experience-mobile.png)
 
-o Mobile wireframe (Skills page) - [View]()
+o Mobile wireframe (Skills page) - [View](assets/wireframes/wireframe-elliot-alderson-skills-mobile.png)
 
-o Mobile wireframe (Projects page) - [View]()
+o Mobile wireframe (Projects page) - [View](assets/wireframes/wireframe-elliot-alderson-projects-mobile.png)
 
-o Mobile wireframe (Contact page) - [View]()
+o Mobile wireframe (Contact page) - [View](assets/wireframes/wireframe-elliot-alderson-contact-mobile.png)
 
-o Mobile wireframe (About page) - [View]()
+o Mobile wireframe (About page) - [View](assets/wireframes/wireframe-elliot-alderson-about-mobile.png)
 
-o Mobile wireframe (Contact form confirmation message page) - [View]()
+o Mobile wireframe (Contact form confirmation message page) - [View](assets/wireframes/wireframe-elliot-alderson-confirmation-mobile.png)
 
 ## **Features**
 
