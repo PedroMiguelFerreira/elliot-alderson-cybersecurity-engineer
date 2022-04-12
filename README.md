@@ -128,7 +128,7 @@ o	This section includes two sub-sections: a resume-like list of Elliot Alderson'
 
 [Screenshot of the Contact Form sub-section here](assets/docs/contact-form-sub-section-screenshot.png)
 
-[Screenshot of the Contact Form confirmation message here]()
+[Screenshot of the Contact Form confirmation message here](assets/docs/contact-form-confirmation-message-screenshot.png)
 
 [Screenshot of the Contact Form email confirmation here](assets/docs/contact-form-email-confirmation.png)
 
