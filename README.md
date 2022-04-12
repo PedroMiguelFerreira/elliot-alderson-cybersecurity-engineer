@@ -275,7 +275,7 @@ a.	This will never change: the social media links on the footer will allow any u
 
 •	Some sections of the website, due to their resume-like content, were created using a table, which was proving very hard to center on any screen size. [This W3Schools tutorial](https://www.w3schools.com/howto/howto_css_table_center.asp) on how to center tables with CSS helped solving the issue.
 
-o	The use of tables proved to be a bit problematic, as there was little space between columns, which made the content look funny. The problem was solved by creating space between the columns using zero-width space, and all the information on how to do this was found on [this very good article](https://levelup.gitconnected.com/the-zero-width-space-77543a28c984) by David Klempfner on [gitconnected](https://gitconnected.com/).
+•	The use of tables proved to be a bit problematic, as there was little space between columns, which made the content look funny. The problem was solved by creating space between the columns using zero-width space, and all the information on how to do this was found on [this very good article](https://levelup.gitconnected.com/the-zero-width-space-77543a28c984) by David Klempfner on [gitconnected](https://gitconnected.com/).
 
 •	The dark mode toggle switch on the Home section was getting on top of the navbar when scrolling down. This was fixed by using a "z-index: 99;" property, and all the information on how to do this was found on [this very good Stack Overflow page](https://stackoverflow.com/questions/63263345/i-created-a-fixed-navbar-but-now-the-buttons-are-getting-on-top-of-the-navbar).
 
@@ -283,7 +283,17 @@ o	The use of tables proved to be a bit problematic, as there was little space be
 
 •	The HTML page for the Contact Form confirmation message was linked to the main index.html page of the website but, when the EmailJS functionality was added to the Contact Form and an email was being sent to the user after submission, the confirmation page was no longer being shown to the user after submission. To redirect the user to the confirmation page after submission, a "window.location.replace()" method was used – the code to do so was found on [this very good W3Schools page](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp), and my mentor's guidance on this one was particularly useful.
 
+•	Some difficulties were experienced when trying to get the input fields on the Contact Form cleared after submission. The idea to use the "reset()" method come from [this very good article](https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit) by Borislav Hadzhiev on [his blog](https://bobbyhadz.com/).
+
 •	There were some issues with the little password-cracking test at the end of the About section. After quite a bit of trial-and-error and research, the simple idea of using the "isValid()" function proved to work just fine, and the code for it was found on [this very good Stack Overflow page](https://stackoverflow.com/questions/7974040/creating-a-simple-password-validation-field). But when the JavaScript code was tested in JSHint, a warning message was shown, as the isValid() function wasn't being properly called and was coming up as "unused", so an "id" in HTML and an "addEventListener" in JavaScript were added to the code so "isValid()" could be correctly called and the issue was solved – my mentor's guidance on this one was again particularly useful.
+
+#### **Unfixed Bugs**
+
+•	This website is not responsive in mobile devices with a width of less than 320px, as only some smart watches are narrower than 320px (information about this topic can be found, for example, [here](https://ux.stackexchange.com/questions/74798/are-there-devices-narrower-than-320px-and-data-on-their-usage-for-web-browsing)).
+
+•	Creating space between the columns of the tables used to display content in some sections of the website using zero-width space proved to be a winning idea, but this created a subtle bug, which is only visible when the user hovers over a couple of external links where this happens (the link for "Allsafe Cybersecurity" in the "Experience" section and the link for "November 2014" in the "Projects" section): the user can see an underline effect that is longer than the group of words it's supposed to underline – not by much, but enough to be noticed.
+
+•	One issue that the creator of this website couldn't find a solution for (and several different approaches were tried) is related to the little password-cracking test at the end of the About section: the idea was to use the same "reset()" method used on the Contact Form but, for some unknown reason, it doesn't work in this section of the site. The creator of this website believes it has to do with the different HTML structures used on both sections: the Contact Form section uses "form", "label" and "input" tags (because it's supposed to be a proper contact form), but the Final Test section uses only a "div" and two "input" tags (as it's not a contact form, it's just a continuation of the text on the About section, with a line of text, a password field and a submit button – its structure has to be different). The user can't see the password on the password field (only dots, as it's supposed to be with password fields), but the password field won't clear after submission.
 
 Deployment
 GitHub Pages
