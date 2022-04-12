@@ -313,11 +313,16 @@ The project was deployed to GitHub Pages using the following steps...
 
 6. Scroll back down through the page to locate the now published site [link](https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity-engineer/settings/pages) in the "GitHub Pages" section.
 
-Forking the GitHub Repository
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-1.	Log in to GitHub and locate the GitHub Repository
-2.	At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3.	You should now have a copy of the original repository in your GitHub account.
+### **Forking the GitHub Repository**
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity-engineer).
+
+2. At the top of the Repository (not top of the page), just above the "Settings" button on the menu, locate the "Fork" button.
+
+3. You should now have a copy of the original repository in your GitHub account.
+
 Making a Local Clone
 1.	Log in to GitHub and locate the GitHub Repository
 2.	Under the repository name, click "Clone or download".
