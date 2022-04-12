@@ -262,7 +262,7 @@ a.	This will never change: the social media links on the footer will allow any u
 
 ### **Further Testing**
 
-•	The website was tested on the Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers (on Safari only by my mentor - he tested it on his iPhone X and confirmed it was fully responsive and functional but, for some reason, the submit buttons and text fields on the website were invisible – he advised me to run it on the [Responsinator](https://www.responsinator.com/) website to double-check and all buttons and text fields were visible and working, so he advised me to leave it as it is and make a note on this README.md file). It was not tested on Internet Explorer as it's no longer supported.
+•	The website was tested on the Google Chrome, Mozilla Firefox, Microsoft Edge and Safari browsers (on Safari only by my mentor - he tested it on his iPhone X and confirmed it was fully responsive and functional but, for some reason, the submit buttons and text fields on the website were invisible – he advised me to run it on the [Responsinator](https://www.responsinator.com/) website to double-check and all buttons and text fields were visible and working - screenshots [here](assets/docs/responsinator-iphone-x-contact-form-screenshot-1.png), [here](assets/docs/responsinator-iphone-x-contact-form-screenshot-2.png) and [here](assets/docs/responsinator-iphone-x-final-test-screenshot.png) - so he advised me to leave it as it is and make a note on this README.md file). It was not tested on Internet Explorer as it's no longer supported.
 
 •	The website was viewed on a variety of devices such as large laptops, medium/smaller laptops, tablets, phablets, larger mobile phones and medium/smaller mobile phones.
 
