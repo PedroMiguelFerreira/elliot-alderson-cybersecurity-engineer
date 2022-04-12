@@ -370,13 +370,28 @@ Click [here](https://docs.github.com/en/repositories/creating-and-managing-repos
 
 •   The idea to use the "reset()" method to get the input fields on the Contact Form cleared after submission came from [this very good article](https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit) by Borislav Hadzhiev on [his blog](https://bobbyhadz.com/).
 
-Content
-•	All content was written by the developer.
-•	Psychological properties of colours text in the README.md was found here
+### **Content**
 
-Media
-•	All Images were created by the developer.
+•	The text on this website was taken from [this page on Simplilearn](https://www.simplilearn.com/tutorials/cyber-security-tutorial/how-to-become-cyber-security-engineer), [this *Mr. Robot* Fandom site](https://mrrobot.fandom.com/wiki/Mr._Robot_Wiki) and [*Mr. Robot*'s Wikipedia page](https://en.wikipedia.org/wiki/Mr._Robot). Some of the content, however, is completely made up by the creator of this website.
 
-Acknowledgements
+•	The social media icons in the footer were taken from [Font Awesome](https://fontawesome.com/search?m=free&s=solid%2Cbrands).
+
+### **Media**
+
+•	Both photos of Elliot Alderson were taken from [Wallpaperbetter](https://www.wallpaperbetter.com/en/search?q=elliot+alderson), a free-download image website.
+
+•	The photo of *Mr. Robot* was taken from [itl.cat](https://www.itl.cat/downwall/hxhohR_christian-slater-mr-robot/), a free-download image website.
+
+•	The logo image was taken from [*Mr. Robot*'s Wikipedia page](https://en.m.wikipedia.org/wiki/File:MR_Robot.svg). As stated on its page, it's in the public domain and is free of copyright restrictions.
+
+•	The favicon image was taken from [this Villains Wiki page](https://villains.fandom.com/wiki/Fsociety).
+
+### **Acknowledgements**
+
 •	My Mentor for continuous helpful feedback.
-•	Tutor support at Code Institute for their support.
+
+•	Tutor Support at Code Institute for their support.
+
+•	[Code Institute](https://codeinstitute.net/ie/)'s Slack community for their support.
+
+•	All family members, friends and *Mr. Robot*'s who helped testing this website.
