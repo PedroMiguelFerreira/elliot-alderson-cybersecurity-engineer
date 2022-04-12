@@ -127,7 +127,7 @@ h1 {
   margin-top: 50px;
 }
 
-#dark-mode-toggle-switch {
+#dark-mode-toggle-switch { /* Partial sources: Florin Pop & Paulina Surazynska */
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -135,7 +135,7 @@ h1 {
   margin-left: 16px;
 }
 
-/* Dark mode toggle switch */
+/* Dark mode toggle switch => Partial sources: Florin Pop & Paulina Surazynska */
 
 .checkbox {
   position: absolute;

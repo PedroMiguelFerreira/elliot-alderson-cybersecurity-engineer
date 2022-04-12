@@ -17,7 +17,7 @@ elliotImage.addEventListener("mouseout", function(){
     }
 });
 
-// Dark mode toggle switch
+// Dark mode toggle switch => Partial sources: Florin Pop & Paulina Surazynska
 checkbox.addEventListener("change", function(){
     isDark = !isDark;
     document.body.classList.toggle("dark-mode"); {
@@ -29,7 +29,7 @@ checkbox.addEventListener("change", function(){
     }
 });
 
-// Alert method for Final Test sub-section
+// Alert method for Final Test sub-section => Partial source: Stack Overflow
 function isValid() {
     let password = document.getElementById("password").value;
     if (password == "whiterose") {
@@ -42,7 +42,7 @@ document.getElementById('sendTest').addEventListener('click', function(){
     isValid();
 });
 
-// To get the information from the form
+// To get the information from the form => Partial source: EmailJS
 document.getElementById('contactForm').addEventListener('submit', function(event){
     event.preventDefault();
     const name = document.getElementById('name').value;
@@ -63,14 +63,14 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         additionalInformation: additionalInformation
     };
 
-    // To reset the form
+    // To reset the form => Source: Borislav Hadzhiev
     document.getElementById('contactForm').reset();
 
-    // To send the email
+    // To send the email => Partial source: EmailJS
     emailjs.send('service_yvo76ku', 'template_968r6ml', templateParams)
     .then(function(response){
         console.log('SUCCESS!', response.status, response.text);
-        window.location.replace("contact-form-confirmation-message.html");
+        window.location.replace("contact-form-confirmation-message.html"); // Source: W3Schools
     }, function(error){
         console.log('FAILED...', error);
     });

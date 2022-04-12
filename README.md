@@ -352,16 +352,31 @@ $ git clone https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity
 
 Click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
-Credits
-Code
-•	The full-screen hero image code came from this StackOverflow post
-•	Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-•	MDN Web Docs : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found Here
+## **Credits**
+
+### **Code**
+
+•   The W3Schools Online Web Tutorials were a huge help throughout the creation of this website – some of them were extensively used as a source of code knowledge/confirmation. Good examples of this were the tutorial about [how to center tables](https://www.w3schools.com/howto/howto_css_table_center.asp) and the one about [how to create a toggle switch](https://www.w3schools.com/howto/howto_css_switch.asp). And the JavaScript code used to redirect the user to the confirmation message page for the Contact Form was taken from [here](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp).
+
+•   [Mike Dane's Giraffe Academy CSS tutorial about event listeners](https://www.youtube.com/watch?v=jrI0WFCCLWY&list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI&index=15) on [Mike's YouTube channel](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) was crucial for me to understand JavaScript's mouseover/mouseout events, and some of the code for these events was based on Mike's code on this tutorial. His JavaScript tutorial on [how to build a password checker](https://www.youtube.com/watch?v=w6nQmCetNuQ&list=PLLAZ4kZ9dFpPQbcrA-SzALJeFm23tPrAI&index=23) was also very useful to create the password-cracking/final test on the About section.
+
+•   Stack Overflow was also used as a source of knowledge and code. The dark mode toggle switch was getting on top of the navbar and the issue was fixed with a "z-index: 99;", and I found this solution on [this page on Stack Overflow](https://stackoverflow.com/questions/63263345/i-created-a-fixed-navbar-but-now-the-buttons-are-getting-on-top-of-the-navbar). Part of the JavaScript code for the password-cracking/final test at the end of the About section was taken from [this page on Stack Overflow](https://stackoverflow.com/questions/7974040/creating-a-simple-password-validation-field).
+
+•   The idea to use zero-space width to create space between the columns of the tables used on some sections of the website came from [this very good article](https://levelup.gitconnected.com/the-zero-width-space-77543a28c984) by David Klempfner on [gitconnected](https://gitconnected.com/).
+
+•   Part of the CSS code for the dark mode toggle switch and part of the dark mode's JavaScript code was taken from [this tutorial](https://www.youtube.com/watch?v=xodD0nw2veQ&t=630s) by Florin Pop on [Florin's YouTube Channel](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA) and from [this page](https://codepen.io/PaulinaSurazynska/pen/bGVpBOb) by Paulina Surazynska on [CodePen](https://codepen.io/).
+
+•   The Contact Form's email functionality was created using EmailJS, and most of the JavaScript code used to create this functionality was taken from [this page](https://www.emailjs.com/docs/tutorial/creating-contact-form/) on [EmailJS's website](https://www.emailjs.com/).
+
+•   The idea to use the "reset()" method to get the input fields on the Contact Form cleared after submission came from [this very good article](https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit) by Borislav Hadzhiev on [his blog](https://bobbyhadz.com/).
+
 Content
 •	All content was written by the developer.
 •	Psychological properties of colours text in the README.md was found here
+
 Media
 •	All Images were created by the developer.
+
 Acknowledgements
 •	My Mentor for continuous helpful feedback.
 •	Tutor support at Code Institute for their support.
