@@ -38,6 +38,9 @@ function isValid() {
         alert("Goodbye, friend.");
     }
 }
+document.getElementById('sendTest').addEventListener('click', function(){
+    isValid();
+});
 
 // To get the information from the form
 document.getElementById('contactForm').addEventListener('submit', function(event){
@@ -51,7 +54,6 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     const timeframeElement = document.getElementById('timeframe');
     const timeframe = timeframeElement.options[timeframeElement.selectedIndex].text;
     const additionalInformation = document.getElementById('additionalInformation').value;
-        
     const templateParams = {
         to_name: name,
         email: email,
