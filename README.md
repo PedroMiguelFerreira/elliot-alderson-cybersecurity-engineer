@@ -203,13 +203,14 @@ o	EmailJS was used to set up the contact form on the website to send a detailed 
 
 The W3C Markup Validator Service, the W3C CSS Validator Service and the JSHint Static Code Analysis Tool for JavaScript were used to validate every page of this project to ensure there were no syntax errors in the project.
 
-•	W3C Markup Validator - [Results for the Index HTML page]() - [Results for the Contact Form Confirmation Message HTML page]()
+•	W3C Markup Validator - [Results](assets/docs/w3c-markup-validator-results.png)
 
-•	W3C CSS Validator - [Results]()
+•	W3C CSS Validator - [Results](assets/docs/w3c-css-validator-results.png)
 
-•	JSHint - [Results]()
+•	JSHint - [Results (page 1)](assets/docs/jshint-results-page-1.png) – [Results (page 2)](assets/docs/jshint-results-page-2.png)
+(The "one undefined variable" warning for line 70 for "emailjs" comes up because it's defined in the HTML – it's supposed to be like that, and the creator of this website has been advised to ignore it.)
 
-The [Am I Responsive?](http://ami.responsivedesign.is/) website design tester was used to test the responsiveness of this website. [Screenshot here]()
+The [Am I Responsive?](http://ami.responsivedesign.is/) website design tester was used to test the responsiveness of this website. [Screenshot here](assets/docs/am-i-responsive-results.png)
 
 Google Chrome's DevTools were used to thoroughly test this website, including the Lighthouse tool - please see below screenshots of both Lighthouse reports (one for desktop and one for mobile - the xx in xx for mobile is due to xx xx xx xx xx xx xx xx xx xx xx xx xx xx ):
 
