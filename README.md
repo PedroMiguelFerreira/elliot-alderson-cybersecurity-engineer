@@ -199,6 +199,9 @@ o	remove.bg was used to remove the original background of the photos used and ma
 **11.** [EmailJS](https://www.emailjs.com/)
 o	EmailJS was used to set up the contact form on the website to send a detailed email confirmation to the user once he/she submits his/her form.
 
+**12.** [Responsinator](https://www.responsinator.com/)
+o	The Responsinator website was used to check if there was a problem with the text fields and the submit buttons on the site when viewed on an iPhone X as reported by my mentor (they were invisible), but they were perfectly visible on Responsinator (screenshots provided on the "Further Testing" sub-section of this README.md file).
+
 ## **Testing**
 
 The W3C Markup Validator Service, the W3C CSS Validator Service and the JSHint Static Code Analysis Tool for JavaScript were used to validate every page of this project to ensure there were no syntax errors in the project.
