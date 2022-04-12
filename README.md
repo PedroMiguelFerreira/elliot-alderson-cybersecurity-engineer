@@ -215,11 +215,11 @@ The W3C Markup Validator Service, the W3C CSS Validator Service and the JSHint S
 
 The [Am I Responsive?](http://ami.responsivedesign.is/) website design tester was used to test the responsiveness of this website. [Screenshot here](assets/docs/am-i-responsive-results.png)
 
-Google Chrome's DevTools were used to thoroughly test this website, including the Lighthouse tool - please see below screenshots of both Lighthouse reports (one for desktop and one for mobile - the xx in xx for mobile is due to xx xx xx xx xx xx xx xx xx xx xx xx xx xx ):
+Google Chrome's DevTools were used to thoroughly test this website, including the Lighthouse tool - please see below screenshots of both Lighthouse reports (one for desktop and one for mobile). The "83" in "Best Practices" for mobile is due to, according to Lighthouse, the images being displayed with the incorrect ratio (it has to do with the dimensions of the images) and a low resolution (it has to do with the images' natural dimensions and the size they're being displayed), but they're supposed to be this size (they were resized and edited to be displayed exactly like this), and they were compressed to decrease page load time, as it should be. The grayer tone of the pictures was also set this way on purpose, to smoothly merge with the darker ambiance of the website and its light gray background color.
 
-[Desktop]()
+[Desktop](assets/docs/lighthouse-results-desktop.png)
 
-[Mobile]()
+[Mobile](assets/docs/lighthouse-results-mobile.png)
 
 ### **Testing User Stories from the User Experience (UX) Section**
 
