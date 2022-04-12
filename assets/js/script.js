@@ -68,6 +68,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     emailjs.send('service_yvo76ku', 'template_968r6ml', templateParams)
     .then(function(response){
         console.log('SUCCESS!', response.status, response.text);
+        window.location.replace("contact-form-confirmation-message.html");
     }, function(error){
         console.log('FAILED...', error);
     });
