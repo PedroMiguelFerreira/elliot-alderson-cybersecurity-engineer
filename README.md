@@ -219,7 +219,7 @@ Google Chrome's DevTools were used to thoroughly test this website, including th
 
 ### **Testing User Stories from the User Experience (UX) Section**
 
-#### **•	First Time Visitor Goals**
+#### **•	First-Time Visitor Goals**
 
 **i.**	As a first-time visitor, I want to easily understand the main purpose of the site and learn more about the cybersecurity services offered by Elliot Alderson and, because I’m a fan, I want to enjoy the several references to the TV show this fictitious character belongs to (*Mr. Robot*). This mixture of reality and fantasy/fiction is a recurrent theme on the show and its purpose is obvious to any fan who visits the website whether they’re potential clients or not.
 
@@ -269,10 +269,19 @@ a.	This will never change: the social media links on the footer will allow any u
 
 •	Friends, family members and *Mr. Robot* fans were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-Known Bugs
-•	On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-o	A white gap can be seen to the right of the footer and navigation bar as a result.
-•	On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+### **Known Bugs**
+
+#### **Fixed Bugs**
+
+•	Some sections of the website, due to their resume-like content, were created using a table, which was proving very hard to center on any screen size. [This W3Schools tutorial](https://www.w3schools.com/howto/howto_css_table_center.asp) on how to center tables with CSS helped solving the issue.
+
+o	The use of tables proved to be a bit problematic, as there was little space between columns, which made the content look funny. The problem was solved by using zero-width space, and all the information on how to do this was found on [this very good article](https://levelup.gitconnected.com/the-zero-width-space-77543a28c984) by David Klempfner on [gitconnected](https://gitconnected.com/).
+
+•	The dark mode toggle switch on the Home section was getting on top of the navbar when scrolling down. This was fixed by using a "z-index: 99;" property, and all the information on how to do this was found on [this very good Stack Overflow page](https://stackoverflow.com/questions/63263345/i-created-a-fixed-navbar-but-now-the-buttons-are-getting-on-top-of-the-navbar).
+
+•	The mouseover/mouseout events were working perfectly both in light mode and dark mode, but they shouldn't work in dark mode (the image of Elliot in dark mode wasn't suppose to change). After some trial-and-error, and with the precious guidance of Code Institute's Tutor Support, the JavaScript code for this functionality was finally tweaked in a way to make it work.
+
+•	There were some issues with the little password-cracking test at the end of the About section. After quite a bit of trial-and-error and research, the simple idea of using the "isValid()" function proved to work just fine, and the code for it was found on [this very good Stack Overflow page](https://stackoverflow.com/questions/7974040/creating-a-simple-password-validation-field).
 
 Deployment
 GitHub Pages
