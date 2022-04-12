@@ -394,4 +394,4 @@ Click [here](https://docs.github.com/en/repositories/creating-and-managing-repos
 
 •	[Code Institute](https://codeinstitute.net/ie/)'s Slack community for their support.
 
-•	All family members, friends and *Mr. Robot*'s who helped testing this website.
+•	All family members, friends and *Mr. Robot*'s fans who helped testing this website.
