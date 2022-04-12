@@ -295,16 +295,24 @@ a.	This will never change: the social media links on the footer will allow any u
 
 •	One issue that the creator of this website couldn't find a solution for (and several different approaches were tried) is related to the little password-cracking test at the end of the About section: the idea was to use the same "reset()" method used on the Contact Form but, for some unknown reason, it doesn't work in this section of the site. The creator of this website believes it has to do with the different HTML structures used on both sections: the Contact Form section uses "form", "label" and "input" tags (because it's supposed to be a proper contact form), but the Final Test section uses only a "div" and two "input" tags (as it's not a contact form, it's just a continuation of the text on the About section, with a line of text, a password field and a submit button – its structure has to be different). The user can't see the password on the password field (only dots, as it's supposed to be with password fields), but the password field won't clear after submission.
 
-Deployment
-GitHub Pages
+## **Deployment**
+
+### **GitHub Pages**
+
 The project was deployed to GitHub Pages using the following steps...
-1.	Log in to GitHub and locate the GitHub Repository
-2.	At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-o	Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
-3.	Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4.	Under "Source", click the dropdown called "None" and select "Master Branch".
-5.	The page will automatically refresh.
-6.	Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity-engineer).
+
+2. At the top of the Repository (not top of the page), locate the "Settings" Button on the menu.
+
+3. Scroll down the Settings page until you locate the "GitHub Pages" section.
+
+4. Under "Source", click the dropdown called "None", select "Master Branch" and click on "Save".
+
+5. The page will automatically refresh.
+
+6. Scroll back down through the page to locate the now published site [link](https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity-engineer/settings/pages) in the "GitHub Pages" section.
+
 Forking the GitHub Repository
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 1.	Log in to GitHub and locate the GitHub Repository
