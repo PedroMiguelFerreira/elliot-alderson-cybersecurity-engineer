@@ -116,7 +116,7 @@ o	A resume-like list of Elliot Alderson's skills as a cybersecurity engineer and
 
 •	The Projects Section
 
-o	A resume-like list of Elliot Alderson's projects. One would expect these would be cybersecurity-related projects, but are in fact, and in a humorous manner, all hacking-related, and all they obey the show's timeline (fans will know what these are, potential clients will just be really scared, but also impressed, hopefully). Each clickable link will take the user to a YouTube pages/video about that specific hack as it happened on the show. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website. This section was also coded using an HTML table.
+o	A resume-like list of Elliot Alderson's projects. One would expect these would be cybersecurity-related projects, but are in fact, and in a humorous manner, all hacking-related, and all they obey the show's timeline (fans will know what these are, potential clients will just be really scared, but also impressed, hopefully). Each clickable link will take the user to a YouTube page/video about that specific hack as it happened on the show. Any external links will open in a new tab to allow easy navigation for the user and avoiding the user to leave the website. This section was also coded using an HTML table.
 
 [Screenshot of the Projects section here](assets/docs/projects-section-screenshot.png)
 
@@ -247,7 +247,7 @@ a.	The social media links on the ever-present sticky footer (for YouTube, Instag
 
 **i.**	As a returning visitor, I need to use the cybersecurity services offered by Elliot Alderson (again or for the first time), or I want to find the best way to get in contact with him with any questions I may have about his services and how I can use them on my projects.
 
-a.	I believe the (good) first impression made on most first-time users has paid back, as more family members, friends and *Mr. Robot* fans that I contacted visited the website again to look at the content and use the contact form – and some fans, and even non-fans, said they even emailed Elliot and called the cell phone number provided on the site, some of them believing Elliot actually existed, which is hilarious (the creator of this website never thought that most non-fans he would contact would believe the Elliot portrayed on this site is real, but most of them did), so this goal has been achieved.
+a.	I believe the (good) first impression made on most first-time users has paid back, as more family members, friends and *Mr. Robot* fans that I contacted visited the website again to look at the content and use the contact form – and some fans, and even non-fans, said they even emailed Elliot and called the cell phone number provided on the site, some of them believing Elliot actually exists, which is hilarious (the creator of this website never thought that most non-fans he would contact would believe the Elliot portrayed on this site is real, but most of them did), so this goal has been achieved.
 
 **ii.**	As a returning visitor, I want to enjoy the references to/content about/external links to *Mr. Robot*’s universe again – I like the themeable customization of the website and how it makes me feel like a hacker and part of an exclusive and dangerous community, which is very exciting.
 
@@ -261,7 +261,7 @@ a.	Users would already be comfortable with the website layout and could easily n
 
 **ii.**	As a frequent user, I want to use the external links on the website to check if there are any newly added posts/updates about Elliot Alderson’s work or *Mr. Robot* on social media and other fansites.
 
-a.	This will never change: the social media links on the footer will allow any user to do this at all times.
+a.	This will never change: the external links on the site and the social media links on the footer will allow any user to do this at all times.
 
 ### **Further Testing**
 
@@ -287,7 +287,7 @@ a.	This will never change: the social media links on the footer will allow any u
 
 •	The HTML page for the Contact Form confirmation message was linked to the main index.html page of the website but, when the EmailJS functionality was added to the Contact Form and an email was being sent to the user after submission, the confirmation page was no longer being shown to the user after submission. To redirect the user to the confirmation page after submission, a "window.location.replace()" method was used – the code to do so was found on [this very good W3Schools page](https://www.w3schools.com/howto/howto_js_redirect_webpage.asp), and my mentor's guidance on this one was particularly useful.
 
-•	Some difficulties were experienced when trying to get the input fields on the Contact Form cleared after submission. The idea to use the "reset()" method come from [this very good article](https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit) by Borislav Hadzhiev on [his blog](https://bobbyhadz.com/).
+•	Some difficulties were experienced when trying to get the input fields on the Contact Form cleared after submission. The idea to use the "reset()" method came from [this very good article](https://bobbyhadz.com/blog/javascript-clear-input-field-after-submit) by Borislav Hadzhiev on [his blog](https://bobbyhadz.com/).
 
 •	There were some issues with the little password-cracking test at the end of the About section. After quite a bit of trial-and-error and research, the simple idea of using the "isValid()" function proved to work just fine, and the code for it was found on [this very good Stack Overflow page](https://stackoverflow.com/questions/7974040/creating-a-simple-password-validation-field). But when the JavaScript code was tested in JSHint, a warning message was shown, as the isValid() function wasn't being properly called and was coming up as "unused", so an "id" in HTML and an "addEventListener" in JavaScript were added to the code so "isValid()" could be correctly called and the issue was solved – my mentor's guidance on this one was again particularly useful.
 
@@ -340,14 +340,21 @@ By forking the GitHub Repository, we make a copy of the original repository on o
 5. Change the current working directory to the location where you want the cloned directory to be made.
 
 6. Type git clone, and then paste the URL you copied in Step 3.
+
 $ git clone https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity-engineer
 
 7.	Press Enter. Your local clone will be created.
+
 $ git clone https://github.com/PedroMiguelFerreira/elliot-alderson-cybersecurity-engineer
+
 > Cloning into `CI-Clone`...
+
 > remote: Counting objects: 10, done.
+
 > remote: Compressing objects: 100% (8/8), done.
+
 > remove: Total 10 (delta 1), reused 10 (delta 1)
+
 > Unpacking objects: 100% (10/10), done.
 
 Click [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
@@ -364,7 +371,7 @@ Click [here](https://docs.github.com/en/repositories/creating-and-managing-repos
 
 •   The idea to use zero-space width to create space between the columns of the tables used on some sections of the website came from [this very good article](https://levelup.gitconnected.com/the-zero-width-space-77543a28c984) by David Klempfner on [gitconnected](https://gitconnected.com/).
 
-•   Part of the CSS code for the dark mode toggle switch and part of the dark mode's JavaScript code was taken from [this tutorial](https://www.youtube.com/watch?v=xodD0nw2veQ&t=630s) by Florin Pop on [Florin's YouTube Channel](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA) and from [this page](https://codepen.io/PaulinaSurazynska/pen/bGVpBOb) by Paulina Surazynska on [CodePen](https://codepen.io/).
+•   Part of the CSS code for the dark mode toggle switch and part of the dark mode's JavaScript code were taken from [this tutorial](https://www.youtube.com/watch?v=xodD0nw2veQ&t=630s) by Florin Pop on [Florin's YouTube Channel](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA) and from [this page](https://codepen.io/PaulinaSurazynska/pen/bGVpBOb) by Paulina Surazynska on [CodePen](https://codepen.io/).
 
 •   The Contact Form's email functionality was created using EmailJS, and most of the JavaScript code used to create this functionality was taken from [this page](https://www.emailjs.com/docs/tutorial/creating-contact-form/) on [EmailJS's website](https://www.emailjs.com/).
 
@@ -394,4 +401,4 @@ Click [here](https://docs.github.com/en/repositories/creating-and-managing-repos
 
 •	[Code Institute](https://codeinstitute.net/ie/)'s Slack community for their support.
 
-•	All family members, friends and *Mr. Robot*'s fans who helped testing this website.
+•	All family members, friends and *Mr. Robot* fans who helped testing this website.
